@@ -1,0 +1,33 @@
+# Site Settings
+title: Your Name
+email: your.email@example.com
+description: >-
+  Academic Researcher | Your Field of Study
+baseurl: ""
+url: "https://your-username.github.io"
+twitter_username: yourtwitter
+github_username: yourusername
+
+# Theme Settings
+theme: minimal-mistakes-jekyll
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
+
+# Navigation
+navigation:
+  - text: "About"
+    url: /about/
+  - text: "Publications"
+    url: /publications/
+  - text: "Education"
+    url: /education/
+  - text: "Videos"
+    url: /videos/
+  - text: "Contact"
+    url: /contact/
